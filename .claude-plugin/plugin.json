@@ -1,0 +1,29 @@
+{
+  "name": "karoulis",
+  "version": "0.3.0",
+  "description": "Karoulis — personal toolkit by Georgios. Fabric timeline builder, Slack-Jack batch scheduling, and workflow automation for Claude Code/Cowork.",
+  "author": {
+    "name": "Georgios Grigoriadis",
+    "email": "ggrigo@gmail.com",
+    "url": "https://baresquare.com"
+  },
+  "license": "Proprietary",
+  "keywords": ["fabric", "timeline", "slack-jack", "scheduling", "calendar", "batch-meetings", "productivity"],
+  "repository": "https://github.com/ggrigo/karoulis",
+  "skills": [
+    {
+      "name": "fabric",
+      "description": "Cross-source daily activity timeline. Pulls from Calendar, Gmail, Slack, Fireflies, Drive to build chronological fabric of the day"
+    },
+    {
+      "name": "slack-jack",
+      "description": "Generate Slack-Jack scheduling commands for batch meetings. Handles identity resolution, calendar availability, and conflict resolution"
+    }
+  ],
+  "commands": [
+    {
+      "name": "fabric-go",
+      "description": "Build yesterday's and today's fabric timeline with one command"
+    }
+  ]
+}
