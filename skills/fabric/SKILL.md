@@ -1,5 +1,6 @@
 ---
 name: fabric
+version: 0.1.0
 description: |
   Cross-source daily activity timeline. Pulls from Google Calendar, Gmail, Slack, Fireflies, and Google Drive, then assembles a chronological fabric of the day.
 
